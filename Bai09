@@ -1,0 +1,7 @@
+so_dien = int(input("nhap so dien: ")
+if so_dien <= 50:
+    tien_dien = so_dien * 1800
+elif 50 < so_dien <= 100:
+    tien_dien = 50 * 1800 + (so_dien - 50) * 2000
+else:
+    tien_dien = 50 * 1800 + 50 * 2000 + (so_dien - 100) * 2500

@@ -1,0 +1,4 @@
+name = input("ten: ")
+age = int(input("tuoi: "))
+school = input("truong: ")
+print(f"xin chao, tôi là {name}, tôi {age} tuổi,đang học tại {school}.")

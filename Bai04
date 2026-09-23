@@ -1,0 +1,5 @@
+Toan = float(input("diem toan: "))
+Van = float(input("diem van: "))
+Anh = float(input("diem anh: "))
+TB = (Toan + Van + Anh) / 3
+print(f"diem trung binh: {TB:.2f}")

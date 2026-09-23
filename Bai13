@@ -1,0 +1,7 @@
+n = int(input(" nhap n si nguyen: "))
+dem_chan = 0
+for i in range(n):
+    so = int(input(f"nhap so thu {i+1}: "))
+    if so % 2 == 0:
+        dem_chan += 1
+print(f"so luon so chan: {dem_chan}")
